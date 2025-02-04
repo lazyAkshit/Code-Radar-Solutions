@@ -20,5 +20,8 @@ int main() {
     else if(c == '/'){
         printf("%d",div);
     }
+    else{
+        printf("error")
+    }
     return 0;
 }
