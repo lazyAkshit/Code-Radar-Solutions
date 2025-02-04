@@ -7,16 +7,16 @@ int main() {
     int sum = a+b;
     int diff = a-b;
     int pro = a*b;
-    if (c=='+'){
+    if (d=='+'){
         printf("%d",sum);
     }
-    else if(c == '-'){
+    else if(d == '-'){
         printf("%d",diff);
     }
-    else if(c == '*'){
+    else if(d == '*'){
         printf("%d",pro);
     }
-    else if (c == '/') {
+    else if (d == '/') {
         if (b == 0) {
             printf("Error");
         } else {
