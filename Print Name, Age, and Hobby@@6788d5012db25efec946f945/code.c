@@ -2,10 +2,10 @@
 
 int main() {
     int age;
-    char name, hobby;
-    scanf("%c %d \n %c",&name,&age,&hobby);
-    printf("Name: %c \n",name);
+    char name[50], hobby[50];
+    scanf("%s %d %s",&name,&age,&hobby);
+    printf("Name: %s \n",name);
     printf("Age: %d \n",age);
-    printf("Hobby: %c \n",hobby);
+    printf("Hobby: %s \n",hobby);
     return 0;
 }
