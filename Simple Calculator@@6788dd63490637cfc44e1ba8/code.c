@@ -3,11 +3,10 @@
 int main() {
     int a,b;
     char d;
+    scanf("%d %d %c",&a ,&b ,&d);
     int sum = a+b;
     int diff = a-b;
     int pro = a*b;
-    int div = a/b;
-    scanf("%d %d %c",&a ,&b ,&c);
     if (c=='+'){
         printf("%d",sum);
     }
@@ -17,11 +16,12 @@ int main() {
     else if(c == '*'){
         printf("%d",pro);
     }
-    else if(c == '/'){
-        printf("%d",div);
-    }
-    else{
-        printf("error")
-    }
+    else if (c == '/') {
+        if (b == 0) {
+            printf("Error");
+        } else {
+            printf("%d", a / b); 
+        }
+    } 
     return 0;
 }
