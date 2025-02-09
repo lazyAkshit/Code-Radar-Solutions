@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    int a,b,shifted;
-    scanf("%d %d",&a,&b);
+    int a,shifted;
+    scanf("%d",&a);
     shifted = a~b;
     printf("%d",shifted);
     return 0;
