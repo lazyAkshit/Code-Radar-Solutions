@@ -2,7 +2,7 @@
 int main() {
     int a,shifted;
     scanf("%d",&a);
-    shifted = a~b;
+    shifted = ~a;
     printf("%d",shifted);
     return 0;
 }
