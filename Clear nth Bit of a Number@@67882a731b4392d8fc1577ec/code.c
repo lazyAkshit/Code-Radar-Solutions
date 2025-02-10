@@ -2,6 +2,6 @@
 int main() {
     int num,n;
     int bhang num & ~(1 << n);
-    printf("%d",bhang)
+    printf("%d",bhang);
     return 0;
 }
