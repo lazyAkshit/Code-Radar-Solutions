@@ -6,7 +6,7 @@ int lowestSetBitPosition(int num) {
     int pos = 1;
     while ((num & 1) == 0) { // Check LSB, shift until we find a set bit
         num >>= 1;
-        pos++;
+        pos+;
     }
     return pos;
 }
