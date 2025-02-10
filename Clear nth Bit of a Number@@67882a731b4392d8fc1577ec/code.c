@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int num,n;
-    int bhang num & ~(1 << n);
+    int bhang = num & ~(1 << n);
     printf("%d",bhang);
     return 0;
 }
