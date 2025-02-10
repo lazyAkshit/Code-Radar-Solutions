@@ -12,7 +12,7 @@ int main() {
     b = a ^ b;  
     a = a ^ b;  
 
-    printf("%d ", a, b);
+    printf("%d ", b, a);
 
     return 0;
 }
