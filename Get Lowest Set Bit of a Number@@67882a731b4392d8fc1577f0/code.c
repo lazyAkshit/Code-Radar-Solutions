@@ -1,9 +1,14 @@
 #include <stdio.h>
-#include <math.h>
 
 int lowestSetBitPosition(int num) {
-    if (num == 0) return 0;
-    return (int)log2(num & -num) + 1;
+    if (num == 0) return 0; // No set bit in 0
+
+    int pos = 1;
+    while ((num & 1) == 0) { // Check LSB, shift until we find a set bit
+        num >>= 1;
+        pos++;
+    }
+    return pos;
 }
 
 int main() {
