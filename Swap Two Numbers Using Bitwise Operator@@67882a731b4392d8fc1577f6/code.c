@@ -5,7 +5,7 @@ int main() {
     
     scanf("%d %d", &a, &b);
 
-    printf("%d ", a, b);
+    printf("%d ", b, a);
 
     
     a = a ^ b; 
