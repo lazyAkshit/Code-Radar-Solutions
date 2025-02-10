@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int lowestSetBitPosition(int num) {
-    if (num == 0) return -1; // Return -1 if no set bit (optional)
+    if (num == 0) return -1;
 
-    int pos = 0; // Start from 0 instead of 1
-    while ((num & 1) == 0) { // Check LSB, shift until we find a set bit
+    int pos = 0;
+    while ((num & 1) == 0) { 
         num >>= 1;
         pos++;
     }
