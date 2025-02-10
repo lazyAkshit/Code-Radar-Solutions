@@ -2,7 +2,7 @@
 #include <math.h>
 
 int lowestSetBitPosition(int num) {
-    if (num == 0) return 0; // No set bit in 0
+    if (num == 0) return 0;
     return log2(num & -num) + 1;
 }
 
