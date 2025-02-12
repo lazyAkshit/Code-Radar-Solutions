@@ -1,16 +1,10 @@
-// Your code here...
 #include<stdio.h>
 int main(){
-    int n;
+    int n,a,i;
     scanf("%d",&n);
-    while(i<=10){
-        for(int i=1;int a=n*i;i++){
-        printf(
-            "%d X %d = %d\n",n,i,a
-        )
-        
+    for(i=1;i<=10;i++){
+        a=n*i;
+        printf("%d X %d = %d",n,i,a);
     }
-    }
-    
     return 0;
 }
