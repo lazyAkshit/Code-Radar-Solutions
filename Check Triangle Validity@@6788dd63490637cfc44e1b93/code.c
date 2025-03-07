@@ -6,10 +6,10 @@ int main(){
     scanf("%d",a, b, c);
     int sum = a+b;
     if(sum > c){
-        printf("Valid")
+        printf("Valid");
     }
     else{
-        printf("Invalid")
+        printf("Invalid");
     }
     return 0;
 }
